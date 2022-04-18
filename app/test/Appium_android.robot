@@ -10,7 +10,7 @@ ${REMOTE_URL}    https://${USERNAME}:${ACCESS_KEY}@beta-hub.lambdatest.com/wd/hu
 *** Test Cases ***
 Appium Test on lambdatest
    	# id=org.wikipedia.alpha:id/search_container
-    	Open Application    ${REMOTE_URL}    app=lt://APP10020521642426864932379   name=single_test    build=RobotFramework    platformName=Android    platformVersion=10   deviceName=Galaxy S9  isRealMobile=true
+    	Open Application    ${REMOTE_URL}    app=lt://APP100202491650305395864929  name=single_test    build=RobotFramework    platformName=Android    platformVersion=10   deviceName=Galaxy S9  isRealMobile=true
 	# id=org.wikipedia.alpha:id/search_container
 	Click Element    id=org.wikipedia.alpha:id/search_container
 	# id=org.wikipedia.alpha:id/search_src_text
