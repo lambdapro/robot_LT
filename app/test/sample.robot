@@ -1,6 +1,7 @@
 *** Settings ***
 Library   Browser
 Library   config.py
+Library   defect.py
 
 *** Test Cases ***
 Example Test
@@ -8,6 +9,6 @@ Example Test
     Log         ${value}
     Connect To Browser    wss://cdp.lambdatest.com/playwright?capabilities=${value}    chromium   
     New Page    https://playwright.dev
-    Get Text    h1    ==    Playwright enables reliable end-to-end testing for modern web apps.
+    Get Text    h1    ==    Playwright enables reliable end-to-end testing for modern we apps.
     
    
