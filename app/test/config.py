@@ -22,8 +22,8 @@ def caps():
         'platform': 'Windows 10',
         'build': 'browser-library tests',
         'name': 'browser-library',
-        'user': '',
-        'accessKey': ''
+        'user': 'mudassars',
+        'accessKey': 'bzxOaqKQcMslHb9gCJbNUXm7vDJn6WAbainToGdJlwiaEWKwEy'
       }
     }
 
