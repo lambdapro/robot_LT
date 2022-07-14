@@ -33,7 +33,5 @@ steps:
       pip install robotframework-pabot
       pip install robotframework-appiumlibrary
       cd app/test
-- task: PythonScript@0
-  inputs:
-    scriptSource: 'inline'
-    script: 'robot Appium_android.robot'
+      robot Appium_android.robot
+
