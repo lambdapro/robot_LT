@@ -34,4 +34,3 @@ steps:
       pip install robotframework-appiumlibrary
       cd app/test
       robot Appium_android.robot
-
