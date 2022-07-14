@@ -32,5 +32,5 @@ steps:
       pip install robotframework
       pip install robotframework-pabot
       pip install robotframework-appiumlibrary
-      cd app/test
+      cd $(Build.SourcesDirectory)/app/test
       robot Appium_android.robot
