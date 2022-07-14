@@ -34,4 +34,6 @@ steps:
       pip install robotframework-appiumlibrary==1.5.0.3
       cd $(Build.SourcesDirectory)/app/test
       pwd
+      export LT_USERNAME="mudassars"
+      export LT_ACCESS_KEY="vVzvPUgOSfn5UprIpNrfym8JMKeFmTJwatLAwLNM5WPiACU0dM"
       robot Appium_android.robot
